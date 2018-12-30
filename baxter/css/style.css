@@ -1,0 +1,548 @@
+@import url(reset.css);
+
+#wrapper{
+	width: 1024px;
+	margin: 0 auto;;
+}
+
+#tolines{
+	background: #cccccc url(../images/top_line_bg.png) repeat-x;
+	height: 18px;
+}
+
+.clear{
+	clear: both;
+}
+/*==============================
+=            header            =
+==============================*/
+#header{
+	height: 157px;
+	position: relative;
+}
+
+#logo{
+	background: url(../images/logo.jpg) no-repeat;
+	height: 63px;
+	width: 208px;
+	position: absolute;
+	left: 74px;
+	top: 38px;
+}
+
+#logo a {
+	display: block;
+	cursor: pointer;
+	height: 63px;
+}
+
+#faq{
+	width: 82px;
+	height: 164px;
+	background: url(../images/faq.png) no-repeat;
+	position: absolute;
+	right: 44px;
+	top: -17px;
+}
+
+#faq a {
+	display: block;
+	cursor: pointer;
+	height: 164px;
+}
+
+#nav{
+	width: 520px;
+	height: 30px;
+	position: absolute;
+	top: 56px;
+	left: 377px;
+}
+	
+#nav li{
+	float: left;
+	margin-right: 27px;
+}
+
+#nav li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font: 16px Arial,sans-serif;
+	color: #3F3F3F;
+	cursor: pointer;
+}
+
+#nav li a.active, #nav li a:hover{
+	color: #2c789c;
+}
+	
+
+/*=====  End of header  ======*/
+
+/*==============================
+=            people            =
+==============================*/
+#people{
+	height: 404px;
+	background: url(../images/people_bg.jpg) no-repeat;
+	background-position: 95px 70px;
+	position: relative;
+	z-index: 4;
+}
+
+#peopleImg{
+	width: 368px;
+	height: 383px;
+	position: absolute;
+	background: url(../images/people.png) no-repeat;
+	top: -4px;
+	right: 59px;
+	z-index: 5;
+}
+
+#slogan{
+	width: 390px;
+	height: 80px;
+	position: absolute;
+	right: 631px;
+	top: 207px;	
+	text-align: right;
+	padding-top: 5px;
+}
+
+#slogan h1{
+	text-transform: uppercase;
+	color: #1D1E1B;
+	font: bold 22px Arial,sans-serif;
+}
+
+#slogan p{
+	color: #2c789c;
+	font: 16px Arial, sans-serif;
+}
+
+#forline{
+	height: 96px;
+	position: absolute;
+	bottom: 1px;
+	left: 0;
+	width: 100%;
+	background: url(../images/forline_bg.png) repeat-y;
+	z-index: 2;
+}
+
+/*=====  End of people  ======*/
+
+
+/*=====================================
+=            colored block            =
+=====================================*/
+#colored{
+	background: url(../images/colored_bg.png) repeat-y;
+	padding:0 48px 0 41px;	
+	color: #ffffff;
+}
+
+#colored h1{
+	font: 19px Arail, sans-serif;
+}
+
+#colored p{
+	font: 16px Arial, sans-serif;
+	padding-top: 16px;
+}
+
+#blue{
+	width: 292px;
+	padding-left: 14px;
+	background: #2c789c url(../images/e1.png) no-repeat 251px 8px;
+}
+
+#yellow{
+	background: #e5b00d url(../images/e2.png) no-repeat 269px 8px;
+	width: 304px;
+	padding-left: 19px;
+}
+
+#green{
+	background:  #97ba15 url(../images/e3.png) no-repeat 230px 8px;
+	width: 282px;
+	padding-left: 24px;
+}
+
+#blue, #yellow, #green{
+	float: left;
+	padding-top: 13px;
+	position: relative;
+}
+
+#yellow p{
+	padding-left: 11px;	
+}
+
+#green p{
+	padding-left: 7px;
+}
+
+#colored a{
+	text-decoration: none;
+	color: #a9a9a9;
+	font: 16px Arial, sans-serif;
+	display: block;
+	cursor: pointer;
+	width: 90px;
+	background: url(../images/link_bg.png) no-repeat;
+	height: 14px;
+	padding: 6px 0 6px 9px;
+	margin: 12px 0 12px 0;
+}
+
+div.romb{
+	width: 26px;
+	height: 49px;
+	position: absolute;
+	left: 0;
+	top: 49px;
+}
+
+#yellow div.romb{
+	background: url(../images/e4.png) no-repeat;
+}
+
+#green div.romb{
+	background: url(../images/e5.png) no-repeat;
+}
+
+/*=====  End of colored block  ======*/
+
+/*=======================================
+=            Black and white            =
+=======================================*/
+#black_white{
+	height: 223px;
+	background: url(../images/colored_bg.png) repeat-y;
+	position: relative;
+	padding: 19px 62px 30px 54px;
+}
+
+#bLeft, #bRight{
+	position: absolute;
+	bottom: 0;
+	width: 37px;
+	height: 102px;
+}
+
+#bLeft{
+	background: url(../images/bLeftBg.jpg) no-repeat;	
+	left: 0;
+}
+
+#bRight{
+	background: url(../images/bRightBg.jpg) no-repeat;
+	right: 0;
+}
+
+#bBottom{
+	background: url(../images/bBottomBg.png) repeat-x;
+	position: absolute;
+	height: 1px;
+	width: 950px;
+	bottom: 0;
+	left: 37px;
+}
+
+#bContent{
+	float: left;
+	width: 611px;
+	height: 220px;
+}
+
+#bContent h1, #bForm h1{
+	font: 24px Arial, sans-serif;
+	height: 20px;
+}
+
+#bContent p.strong{
+	font: bold 16px Arial, sans-serif;
+	margin-top: 12px;
+	color: #1d1e1b;
+	height: 36px;
+	overflow: hidden;
+}
+#bContent p{
+	color:#7b7d78;
+	font: 16px Arial, sans-serif;
+	margin-top: 23px;
+	height: 103px;
+	overflow: hidden;
+}
+
+#bContent a{
+	text-decoration: none;
+	color: #b6b7b6;
+	font: 16px Arial, sans-serif;
+	display: block;
+	cursor: pointer;
+	width: 90px;
+	background: url(../images/linkBgBlack.png) no-repeat;
+	height: 15px;
+	padding: 5px 0 6px 9px;
+}
+
+#bForm{
+	float: right;
+	width: 266px;
+}
+
+#bForm h1{
+	margin-bottom: 11px;
+}
+
+#bForm input{
+	height: 31px;
+	width: 249px;
+	border: 1px solid #dedede;
+	margin-bottom: 11px;
+	font: 16px Arial, sans-serif;
+	color: #bababa;
+	padding-left: 15px;
+}
+
+#bForm input.bButton{
+	color: #b6b7b6;
+	font: 16px Arial, sans-serif;
+	display: block;
+	cursor: pointer;
+	width: 99px;
+	height: 26px;
+	background: url(../images/linkBgBlack.png) no-repeat;
+	border:none;
+	padding-left:0;
+	margin-top: 24px;
+	margin-bottom: 0;
+}
+/*=====  End of Black and white  ======*/
+
+
+/*============================
+=            dark            =
+============================*/
+#dark{
+	background-color: #1d1e1b;
+	height: 399px;
+	padding: 16px 36px 15px 41px;
+}
+
+#planing, #team, #blog{
+	width: 289px;
+	height: 399px;
+	float: left;
+}
+
+#team, #blog{	
+	margin-left: 40px;
+}
+
+.darkheader{
+	font:18px Arial, sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;	
+	height: 17px;
+	padding-bottom: 10px;
+}
+
+.darkheader span{
+	font-size: 16px;
+	color: #2c789c;
+	text-transform: lowercase;
+	margin-left: 20px;
+}
+
+.darkIm{
+	height: 115px;
+	width: 289px;
+}
+
+.darkText{
+	color: #94998f;
+	font: 12px ArialNarrow, sans-serif;
+	margin-top: 10px;
+	height: 221px;
+	overflow: hidden;
+}
+
+.darkLink{
+	font: 16px Arial, sans-serif;
+	display: block;
+	cursor: pointer;
+	height: 21px;
+	width: 90px;
+	background: url(../images/linkBlueBg.png) no-repeat;
+	color: #98bdce;
+	text-decoration: none;
+	padding: 5px 0 0px 9px;
+}
+
+.blogPost{
+	height: 81px;
+	width: 289px;
+	margin-bottom: 40px;
+}
+
+.blogPost img{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	width: 111px;
+	height: 81px;
+}
+
+.blogPost h3{
+	color: #ffffff;
+	font: 14px Arial, sans-serif;
+	padding-bottom: 4px;
+}
+
+.blogPost p{
+	font: 12px "Myriad Pro";
+	color: #94998f;
+	height: 44px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.blogPost a{
+	
+	color: #28617c;
+	font: 12px "Myriad Pro";
+}
+/*=====  End of dark  ======*/
+
+
+ /*============================
+ =            gray            =
+ ============================*/
+ #gray{
+ 	height: 167px;
+ 	background-color: #2e302c;
+ 	padding: 17px 36px 32px 41px;
+ 	color: #94998f;
+ }
+
+ #about{
+ 	width: 290px;
+ 	float: left;
+ 	margin-right: 40px;
+ }
+
+ #partners{
+ 	width: 617px;
+ 	float: left; 
+ }
+ 
+ #about h2, #partners h2{
+ 	font: 18px Arial, sans-serif;
+ 	color: #ffffff;
+ 	padding-bottom: 8px;
+ 	text-transform: uppercase;
+ 	overflow: hidden;
+ }
+
+ #about p{
+ 	font: 12px "Myriad Pro", sans-serif;
+ 	overflow: hidden;
+ 	margin-bottom: 13px;
+ }
+
+ #about a{
+ 	color: #2c789c;
+ 	font: 16px Arial, sans-serif;
+ 	text-decoration: none;
+ }
+
+ .parList{
+ 	float: left;
+ 	width: 265px;
+ 	font:12px "Myriad Pro", sans-serif;
+ }
+
+ #list1{
+ 	margin-left: 19px;
+ }
+
+ #list2{
+ 	margin-left: 61px;
+ }
+
+ .parList li{
+ 	background-image: url(../images/liBg.png);
+ 	background-repeat: no-repeat;
+ 	background-position: 0 4px;
+ 	padding-left: 22px;
+ 	padding-bottom: 17px;
+ }
+ 
+ /*=====  End of gray  ======*/
+ 
+ /*==============================
+ =            footer            =
+ ==============================*/
+ #footer{
+ 	height: 155px;
+ 	background-color: #131412;
+	position: relative;
+ }
+ 
+ #footer p{
+ 	display: block;
+ 	position: absolute;
+ 	top: 67px;
+ 	left: 40px;
+ 	height: 20px;
+ 	padding-top: 13px;
+ 	color: #94998f;
+ 	font: 13px Arial, sans-serif;
+ }
+
+ #footer p a{
+  	text-decoration: none;
+  	color: inherit;
+  }
+
+ #footer ul{
+ 	position: absolute;
+ 	right: 36px;
+ 	top: 67px;
+ 	height: 33px;
+ 	width: 428px;
+ }
+
+ #footer> ul> li a{
+ 	float: right;
+ 	padding-left: 22px;
+ 	font: 13px Arial, sans-serif;
+ 	color: #94998f;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	padding-top: 10px;
+ }
+ 
+ #footer a.active, #footer li a:hover{
+	color: #2c789c;
+}
+ 
+ #social{
+ 	position: absolute;
+ 	right: 36px;
+ 	top: 107px;
+ }
+
+ #social a{
+ 	display: block;
+ 	cursor: pointer;
+ 	float: right;
+ 	margin-left: 6px;
+ }
+ /*=====  End of footer  ======*/
+ 
+ 

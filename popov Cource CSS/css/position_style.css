@@ -1,0 +1,52 @@
+ body{
+	 background-color: #D1D1D1;
+	 font: 11px Verdana;
+	 color: #696969;
+	 text-align: justify;
+ }
+ 
+ #wrapper{
+	 width:650px;
+	 outline: 1px solid #333333;
+	 background-color: #F4F4F4;
+	 margin: 30px  auto;
+ }
+ 
+ #header{ 
+	 height: 75px;
+	 background-color: #DC1111;
+	 margin-bottom: 12px;
+	 position: relative;
+ }
+ 
+ #content{
+	 padding: 20px 30px;
+ }
+ 
+ #new{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+ }
+ 
+ #operator{
+	 left: 0;
+	 position: fixed;
+	 top: 50%;
+ }
+ 
+ #russ{
+	 position: absolute;
+	 top:-14px;
+	 left: 294px; 
+	 z-index:1;
+ }
+ 
+ #bird{
+	 position: absolute;
+	 left:364px;
+	 top: -3px;
+	 z-index:2;
+ }
+ 
+ 

@@ -1,0 +1,62 @@
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Главная страница</title>
+        <link href="css/form_style.css" type="text/css" rel="stylesheet" >
+    </head>
+    <body>
+	<div id="wrapper">
+		<form action="formdata.php" method="POST" name="form1">
+			<fieldset >
+				<legend>Ввод личных данных</legend>
+
+				<p><label class="question" for="name">Введите Ваше имя (макс. 10 символов):</label></p>
+				<p><input class="input" type="text" name="name"  id="name" size="30" maxlength="10"></p>
+				
+				<p><label class="question"  for="password">Введите Ваш пароль (max 10):</label></p>
+				<p> <input class="input"  type="password" name="name"  id="password" size="30" maxlength="10">	</p>
+				
+				
+
+			</fieldset>
+			<fieldset>
+				<legend>Вопросы</legend>
+				
+
+		
+
+		<p>Любимый фрукт?
+			<label>Яблоко<input type="checkbox" name="apple" checked></label>
+			<label>Апельсин<input type="checkbox" name="orange" ></label>
+			<label>Лимон<input type="checkbox" name="lemon" ></label>
+		</p>
+
+		<p><label class="question" for="sleep">Сколько часов в день вы спите?</label></p>
+		<p>
+			<select name="sleep" id ="sleep">
+			<option>5</option>
+			<option>6</option>
+			<option value ="seven">7</option>
+			<option selected>8</option>
+			<option>8+</option>
+		</select>
+		</p>
+
+		<p> Вам это нравится? 
+			<label>Да
+				<input type="radio" name="time" value="yes" checked>
+			</label>
+			<label> Нет
+				<input type="radio" name="time" value="no">
+			</label>
+		</p>
+		</fieldset>
+		<p class="question tp"><label for="text">Поделитесь своими наработками</label></p>
+		<p><textarea name="text" id="text" rows="6" cols="50">Текстовый текст</textarea></p>
+		<p><input type="image" src="images/iButton.png" name="imageButton"/></p>
+		
+</form>
+</div>
+    </body>
+</html>

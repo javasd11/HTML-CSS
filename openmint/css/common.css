@@ -1,0 +1,34 @@
+body{
+	background-color: #e8e8e8;
+}
+
+.clear{
+	clear: both;
+}
+
+.greenButt{
+	background-color: #79a620;
+	font: 11px Verdana, sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: 1px solid #336600;
+	cursor: pointer;
+	background: linear-gradient(to top, #669900, #8bb23e);
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+#wrapper{
+	width: 100%;
+}
+
+#header, #slider, #content, #blogContent{
+	margin: 0 auto;
+	width: 900px;
+}
+
+#slider, #footer{
+	width: 100%;
+}
